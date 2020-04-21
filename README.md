@@ -12,13 +12,16 @@ A template project for Quarkus inside a Vagrant environment
  2. From command line, start up vagrant environment(VM):
  > cd vagrant
  > vagrant up
+ 
  This will take a while to complete. Be patient.
  3. SSH into the VM as the default 'vagrant' user
  > vagrant ssh
+ 
  You will be inside the default user home - /home/vagrant
  4. Generate the Quarkus Web Project from the project directory
  > cd workspace/my-project
  > ./createWebProject.sh
+ 
  Answer the questions asked, your project will be created.
  5. Open a browser window on your local PC, enter the following:
  > http://localhost:8180
