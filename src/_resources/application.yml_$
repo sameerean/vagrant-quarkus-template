@@ -1,0 +1,11 @@
+
+
+quarkus:
+   log:
+      console:
+         enable: true
+         format: "%d{HH:mm:ss} %-5p [%c{2.}] (%t) %s%e%n"
+         level: DEBUG
+         color: true
+   http:
+      port: {httpPort}
