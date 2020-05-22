@@ -28,7 +28,7 @@ A template project for Quarkus inside a Vagrant environment
  	Answer the questions asked, your project will be created.
  
  5. Start up the newly generated App [from the project root that you just created]: 
- 	> cd <projectArtifactId>
+ 	> cd &lt;projectArtifactId&gt;
  	> ./mvnw quarkus:dev
  
  6. Open a browser window on your local PC, enter the following:
